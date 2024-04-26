@@ -2,12 +2,7 @@ import pandas as pd
 
 
 class competition:
-    #def __init__(self, CAR_ID, Tire_Wear, Fuel_Level, Race_Position, Laps_Since_Last_Pit):
-        # self.CAR_ID = CAR_ID
-        # self.Tire_Wear = Tire_Wear
-        # self.Fuel_Level = Fuel_Level
-        # self.Race_Position = Race_Position
-        # self.Laps_Since_Last_Pit = Laps_Since_Last_Pit
+    
 
     def __init__(self):
         self.read_input()
