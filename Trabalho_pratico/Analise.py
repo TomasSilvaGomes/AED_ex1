@@ -10,6 +10,7 @@ class Competition:
         self.Fuel_Level = content['Fuel_Level']
         self.Race_Position = content['Race_Position']
         self.Laps_Since_Last_Pit = content['Laps_Since_Last_Pit']
+        self.Type = content['TYPE']
 
     # function that calculates the priority of the object
     def priority(self):
@@ -18,7 +19,7 @@ class Competition:
 
     def __repr__(self):
         # Creation of a list of tuples containing the car ID and priority
-        print(self.CAR_ID)
+        # print(self.CAR_ID)
         car_id = self.CAR_ID
         priority = self.priority()
         car_priorities = list(zip(car_id, priority))
@@ -32,15 +33,6 @@ class Competition:
             output += f"Car ID: {car_id}, Priority: {priority:.2f}\n"
         return output
 
-    def insert_car(self, car_id, tire_wear, fuel_level, race_position, laps_since_last_pit):
-        # method to insert data if the user wants to
-        self.CAR_ID
-        self.Tire_Wear
-        self.Fuel_Level
-        self.Race_Position
-        self.Laps_Since_Last_Pit
-
 
 cp = Competition()
-cp.insert_car(100, 0.2, 50, 1, 2)
 print(cp.__repr__())

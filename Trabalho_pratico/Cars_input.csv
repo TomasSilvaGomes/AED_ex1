@@ -1,9 +1,9 @@
-CAR_ID,Tire_Wear,Fuel_Level,Race_Position,Laps_Since_Last_Pit
+CAR_ID,Tire_Wear,Fuel_Level,Race_Position,Laps_Since_Last_Pit,TYPE, FUEL_LOSS, TIRE_LOSS
 CAR_01, 0.6, 50, 1, 10
 CAR_02, 0.7, 45, 2, 12
-CAR_03, 0.5, 60, 3, 8
+CAR_03, 0.5, 60, 3, 8,FULL_ACCIDENT, 100, 100
 CAR_04, 0.8, 30, 4, 15
-CAR_05, 0.4, 70, 5, 5
+CAR_05, 0.4, 70, 5, 5,FULL_ACCIDENT, 100, 100
 CAR_06, 0.7, 55, 6, 11
 CAR_07, 0.6, 40, 7, 13
 CAR_08, 0.5, 65, 8, 7
